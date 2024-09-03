@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = appEquipe
+build_property.ProjectDir = C:\Users\Aluno\trabalhodeds-1\appEquipe\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Aluno/trabalhodeds-1/appEquipe/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appEquipe.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Aluno/trabalhodeds-1/appEquipe/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appEquipe.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Aluno/trabalhodeds-1/appEquipe/CadastroCliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appEquipe.CadastroCliente.xaml
+build_metadata.AdditionalFiles.TargetPath = CadastroCliente.xaml
+build_metadata.AdditionalFiles.RelativePath = CadastroCliente.xaml
+
+[C:/Users/Aluno/trabalhodeds-1/appEquipe/CadastroFornecedor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appEquipe.CadastroFornecedor.xaml
+build_metadata.AdditionalFiles.TargetPath = CadastroFornecedor.xaml
+build_metadata.AdditionalFiles.RelativePath = CadastroFornecedor.xaml
+
+[C:/Users/Aluno/trabalhodeds-1/appEquipe/CadastroMateriaPrima.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appEquipe.CadastroMateriaPrima.xaml
+build_metadata.AdditionalFiles.TargetPath = CadastroMateriaPrima.xaml
+build_metadata.AdditionalFiles.RelativePath = CadastroMateriaPrima.xaml
+
+[C:/Users/Aluno/trabalhodeds-1/appEquipe/ListarCliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appEquipe.ListarCliente.xaml
+build_metadata.AdditionalFiles.TargetPath = ListarCliente.xaml
+build_metadata.AdditionalFiles.RelativePath = ListarCliente.xaml
+
+[C:/Users/Aluno/trabalhodeds-1/appEquipe/ListarFornecedor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appEquipe.ListarFornecedor.xaml
+build_metadata.AdditionalFiles.TargetPath = ListarFornecedor.xaml
+build_metadata.AdditionalFiles.RelativePath = ListarFornecedor.xaml
+
+[C:/Users/Aluno/trabalhodeds-1/appEquipe/ListarMateriaPrima.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appEquipe.ListarMateriaPrima.xaml
+build_metadata.AdditionalFiles.TargetPath = ListarMateriaPrima.xaml
+build_metadata.AdditionalFiles.RelativePath = ListarMateriaPrima.xaml
+
+[C:/Users/Aluno/trabalhodeds-1/appEquipe/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appEquipe.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Aluno/trabalhodeds-1/appEquipe/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appEquipe.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Aluno/trabalhodeds-1/appEquipe/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appEquipe.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
