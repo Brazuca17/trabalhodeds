@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEquipe.ListarFornecedor"
+             BackgroundColor="#fac1a0">
+    <VerticalStackLayout Padding="20">
+
+    <Button Text="Voltar"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Start"
+                    BorderWidth="2"
+                    Clicked="VoltarMenu"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    BackgroundColor="#dea787"
+                    TextColor="Black"
+                    FontSize="18"
+                    BorderColor="Black"/>
+
+        <Label Text="Listar Fornecedor"
+               FontSize="Large" 
+               HorizontalOptions="Center" 
+               Margin="0,20,0,20"/>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Header -->
+            <Label Text="Cliente:"
+                HorizontalOptions="Center"
+                Grid.Row="0" 
+                Grid.Column="0" 
+                FontAttributes="Bold"/>
+            <Label Text="CPF:" 
+                HorizontalOptions="Center"
+                Grid.Row="0" 
+                Grid.Column="1" 
+                FontAttributes="Bold"/>
+            <Label Text="Telefone:" 
+                HorizontalOptions="Center"
+                Grid.Row="0" 
+                Grid.Column="2" 
+                FontAttributes="Bold"/>
+
+            
+
+            <!-- Data Rows -->
+            <!-- Repeat the following for each row you want to add, or use a ListView/CollectionView for dynamic data -->
+            <Entry Grid.Row="1" Grid.Column="0"/>
+            <Entry Grid.Row="1" Grid.Column="1"/>
+            <Entry Grid.Row="1" Grid.Column="2"/>
+            <Entry Grid.Row="2" Grid.Column="0"/>
+            <Entry Grid.Row="2" Grid.Column="1"/>
+            <Entry Grid.Row="2" Grid.Column="2"/>
+            <Entry Grid.Row="3" Grid.Column="0"/>
+            <Entry Grid.Row="3" Grid.Column="1"/>
+            <Entry Grid.Row="3" Grid.Column="2"/>
+            <Entry Grid.Row="4" Grid.Column="0"/>
+            <Entry Grid.Row="4" Grid.Column="1"/>
+            <Entry Grid.Row="4" Grid.Column="2"/>
+            <Entry Grid.Row="5" Grid.Column="0"/>
+            <Entry Grid.Row="5" Grid.Column="1"/>
+            <Entry Grid.Row="5" Grid.Column="2"/>
+            <Entry Grid.Row="6" Grid.Column="0"/>
+            <Entry Grid.Row="6" Grid.Column="1"/>
+            <Entry Grid.Row="6" Grid.Column="2"/>
+            <Entry Grid.Row="7" Grid.Column="0"/>
+            <Entry Grid.Row="7" Grid.Column="1"/>
+            <Entry Grid.Row="7" Grid.Column="2"/>
+            <Entry Grid.Row="8" Grid.Column="0"/>
+            <Entry Grid.Row="8" Grid.Column="1"/>
+            <Entry Grid.Row="8" Grid.Column="2"/>
+            <Entry Grid.Row="9" Grid.Column="0"/>
+            <Entry Grid.Row="9" Grid.Column="1"/>
+            <Entry Grid.Row="9" Grid.Column="2"/>
+            <!-- Add more rows as needed -->
+
+        </Grid>
+
+        <!-- Buttons -->
+        <HorizontalStackLayout HorizontalOptions="Center" Margin="20,40,20,20">
+            <ImageButton Source="lixeira.jpg" 
+                         WidthRequest="50" 
+                         HeightRequest="50"/>
+            <ImageButton Source="recycle.png" 
+                         WidthRequest="50" 
+                         HeightRequest="50"/>
+            <ImageButton Source="back.png" 
+                         WidthRequest="50" 
+                         HeightRequest="50"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

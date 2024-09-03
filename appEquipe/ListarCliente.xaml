@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEquipe.ListarCliente"
+             BackgroundColor="#87edbc">
+    <VerticalStackLayout Padding="20">
+
+        <Label Text="Listar Cliente"
+               FontSize="60" 
+               FontFamily="Listar"
+               HorizontalOptions="Center" 
+               VerticalOptions="Start"/>
+
+        <Button Text="Voltar"
+                VerticalOptions="Center"
+                HorizontalOptions="Start"
+                BorderWidth="2"
+                Clicked="VoltarMenu"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#7be0b0"
+                TextColor="Black"
+                FontSize="18"
+                BorderColor="Black"/>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="50"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Header -->
+            <Label Text="Cliente:"
+                HorizontalOptions="Center"
+                Grid.Row="0" 
+                Grid.Column="0" 
+                FontAttributes="Bold"/>
+            <Label Text="CPF:" 
+                HorizontalOptions="Center"
+                Grid.Row="0" 
+                Grid.Column="1" 
+                FontAttributes="Bold"/>
+            <Label Text="Telefone:" 
+                HorizontalOptions="Center"
+                Grid.Row="0" 
+                Grid.Column="2" 
+                FontAttributes="Bold"/>
+
+            
+
+            <!-- Data Rows -->
+            <!-- Repeat the following for each row you want to add, or use a ListView/CollectionView for dynamic data -->
+            <Entry Grid.Row="1" Grid.Column="0" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="1" Grid.Column="1" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="1" Grid.Column="2" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="2" Grid.Column="0" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="2" Grid.Column="1" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="2" Grid.Column="2" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="3" Grid.Column="0" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="3" Grid.Column="1" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="3" Grid.Column="2" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="4" Grid.Column="0" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="4" Grid.Column="1" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="4" Grid.Column="2" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="5" Grid.Column="0" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="5" Grid.Column="1" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="5" Grid.Column="2" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="6" Grid.Column="0" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="6" Grid.Column="1" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="6" Grid.Column="2" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="7" Grid.Column="0" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="7" Grid.Column="1" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="7" Grid.Column="2" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="8" Grid.Column="0" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="8" Grid.Column="1" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="8" Grid.Column="2" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="9" Grid.Column="0" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="9" Grid.Column="1" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="9" Grid.Column="2" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="10" Grid.Column="0" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="10" Grid.Column="1" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="10" Grid.Column="2" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="11" Grid.Column="0" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="11" Grid.Column="1" ClearButtonVisibility="WhileEditing"/>
+            <Entry Grid.Row="11" Grid.Column="2" ClearButtonVisibility="WhileEditing"/>
+
+            <ImageButton Source="pontoexclamacao.jpg"
+                     WidthRequest="20"
+                     BackgroundColor="Transparent"
+                     Padding="10"
+                     HeightRequest="20"
+                     Grid.Row="1"
+                     Grid.Column="3"/> 
+            <ImageButton Source="pontoexclamacao.jpg"
+                     WidthRequest="20"
+                     Padding="10"
+                     BackgroundColor="Transparent"
+                     HeightRequest="20"
+                     Grid.Row="2"
+                     Grid.Column="3"/>
+            
+            <ImageButton Source="pontoexclamacao.jpg"
+                     WidthRequest="20"
+                     Padding="10"
+                     HeightRequest="20"
+                     BackgroundColor="Transparent"
+                     Grid.Row="3"
+                     Grid.Column="3"/>
+
+            <ImageButton Source="pontoexclamacao.jpg"
+                WidthRequest="20"
+                Padding="10"
+                HeightRequest="20"
+                Grid.Row="4"
+                BackgroundColor="Transparent"
+                Grid.Column="3"/>
+                
+                <ImageButton Source="pontoexclamacao.jpg"
+                WidthRequest="20"
+                Padding="10"
+                HeightRequest="20"
+                BackgroundColor="Transparent"
+                Grid.Row="5"
+                Grid.Column="3"/>
+
+                <ImageButton Source="pontoexclamacao.jpg"
+                WidthRequest="20"
+                Padding="10"
+                HeightRequest="20"
+                Grid.Row="6"
+                BackgroundColor="Transparent"
+                Grid.Column="3"/>
+
+                <ImageButton Source="pontoexclamacao.jpg"
+                WidthRequest="20"
+                Padding="10"
+                HeightRequest="20"
+                Grid.Row="7"
+                BackgroundColor="Transparent"
+                Grid.Column="3"/>
+
+                <ImageButton Source="pontoexclamacao.jpg"
+                WidthRequest="20"
+                Padding="10"
+                HeightRequest="20"
+                Grid.Row="8"
+                Grid.Column="3"
+                BackgroundColor="Transparent"/>
+
+                <ImageButton Source="pontoexclamacao.jpg"
+                WidthRequest="20"
+                Padding="10"
+                HeightRequest="20"
+                Grid.Row="9"
+                Grid.Column="3"
+                BackgroundColor="Transparent"/>
+
+                <ImageButton Source="pontoexclamacao.jpg"
+                WidthRequest="20"
+                Padding="10"
+                HeightRequest="20"
+                Grid.Row="10"
+                Grid.Column="3"
+                BackgroundColor="Transparent"/>
+
+                <ImageButton Source="pontoexclamacao.jpg"
+                WidthRequest="20"
+                Padding="10"
+                HeightRequest="20"
+                Grid.Row="11"
+                Grid.Column="3"
+                BackgroundColor="Transparent"/>
+
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

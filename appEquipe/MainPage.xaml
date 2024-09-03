@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appEquipe.MainPage"
+             Shell.NavBarIsVisible="False">
+<VerticalStackLayout>
+
+
+    
+
+    <Button Text="Cadastro Fornecedor"
+                VerticalOptions="Center"
+                BorderWidth="2"
+                Clicked="IrCadastroFornecedor"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#a8b178"
+                TextColor="Black"
+                FontSize="18"
+                BorderColor="Black"/>
+
+     <Button Text="CadastroCliente"
+                VerticalOptions="Center"
+                BorderWidth="2"
+                Clicked="IrCadastroCliente"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#a8b178"
+                TextColor="Black"
+                FontSize="18"
+                BorderColor="Black"/>
+
+    <Button Text="CadastroMateriaPrima"
+                VerticalOptions="Center"
+                BorderWidth="2"
+                Clicked="IrCadastroMateriaPrima"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#a8b178"
+                TextColor="Black"
+                FontSize="18"
+                BorderColor="Black"/>
+
+    <Button Text="ListarMateriaPrima"
+                VerticalOptions="Center"
+                BorderWidth="2"
+                Clicked="IrListarMateriaPrima"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#a8b178"
+                TextColor="Black"
+                FontSize="18"
+                BorderColor="Black"/>
+    
+    <Button Text="ListarCliente"
+                VerticalOptions="Center"
+                BorderWidth="2"
+                Clicked="IrListarCliente"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#a8b178"
+                TextColor="Black"
+                FontSize="18"
+                BorderColor="Black"/>
+
+    <Button Text="ListarFornecedor"
+                VerticalOptions="Center"
+                BorderWidth="2"
+                Clicked="IrListarFornecedor"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#a8b178"
+                TextColor="Black"
+                FontSize="18"
+                BorderColor="Black"/>
+
+
+</VerticalStackLayout>
+</ContentPage>
