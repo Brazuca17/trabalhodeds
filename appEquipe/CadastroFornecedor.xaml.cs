@@ -64,7 +64,7 @@ namespace appEquipe
             fornecedor.MateriaPrima  =  MateriaPrimaEntry.Text;
 
             // Com o objeto preenchido enviamos para o controle para criar/atualizar no Banco de Dados
-            fornecedorControle.CriarOuAtualizar(fornecedor);
+            controleFornecedor.CriarOuAtualizar(fornecedor);
             // Mostra a mensagem de sucesso
             await DisplayAlert("Salvar", "Dados salvos com sucesso!", "OK");
             }

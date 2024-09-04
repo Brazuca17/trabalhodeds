@@ -53,25 +53,14 @@
                         </StackLayout>
 
                         <StackLayout>
-                            <Label Text="Matéria Prima:"/>
-                            <Frame BorderColor="Gray" CornerRadius="10" Padding="10" Margin="0,10,0,10" x:Name="MateriaPrimaEntry">
-                                <Grid>
-                                    <StackLayout>
-                                        <Editor Placeholder="Digite as matérias primas" AutoSize="TextChanges"/>
-                                    </StackLayout>
-                                    <Button Text="+" 
-                                            HorizontalOptions="End"
-                                            VerticalOptions="Start"
-                                            WidthRequest="40"
-                                            HeightRequest="40"
-                                            BackgroundColor="LightGreen"/>
-                                </Grid>
-                            </Frame>
+                            <Label Text="Endereço"/>
+                            <Entry Placeholder="Digite o CPJ/CPF"
+                                   x:Name="MateriaPrimaEntry"/>
                         </StackLayout>
 
                         <Button Text="CADASTRAR-SE"
                                 BackgroundColor="LightPink"
-                                Clicked="OnRegisterButtonClicked"/>
+                                />
                     </StackLayout>
             </Grid>
 
