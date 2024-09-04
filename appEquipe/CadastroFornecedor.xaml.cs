@@ -48,7 +48,7 @@ namespace appEquipe
             NomeFonecedorEntry.Text  = string.Empty;
         }
 
-        private async void OnSalvarDadosClicked(object sender, EventArgs e)
+        private async void SalvaDados(object sender, EventArgs e)
         {
             if (await VerificaSeDadosEstaoCorretos()) // Verifica se os dados são válidos antes de salvar no banco
             {

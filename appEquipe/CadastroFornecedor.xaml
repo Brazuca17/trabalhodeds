@@ -60,8 +60,7 @@
 
                         <Button Text="CADASTRAR-SE"
                                 BackgroundColor="LightPink"
-                                />
+                                Clicked="SalvaDados"/>
                     </StackLayout>
             </Grid>
-
 </ContentPage>
